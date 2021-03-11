@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'icons-font';
+  src:  url('fonts/icons-font.eot?w0akyg');
+  src:  url('fonts/icons-font.eot?w0akyg#iefix') format('embedded-opentype'),
+    url('fonts/icons-font.ttf?w0akyg') format('truetype'),
+    url('fonts/icons-font.woff?w0akyg') format('woff'),
+    url('fonts/icons-font.svg?w0akyg#icons-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-box:before {
+  content: "\e900";
+}
+._icon-clock:before {
+  content: "\e901";
+}
+._icon-clock2:before {
+  content: "\e902";
+}
+._icon-cloud:before {
+  content: "\e903";
+}
+._icon-document:before {
+  content: "\e904";
+}
+._icon-fb:before {
+  content: "\e905";
+}
+._icon-logo:before {
+  content: "\e906";
+}
+._icon-mail:before {
+  content: "\e907";
+}
+._icon-map_pin1:before {
+  content: "\e908";
+}
+._icon-map_pin2:before {
+  content: "\e909";
+}
+._icon-net-2:before {
+  content: "\e90a";
+}
+._icon-rss:before {
+  content: "\e90b";
+}
+._icon-serv:before {
+  content: "\e90c";
+}
+._icon-twitter:before {
+  content: "\e90d";
+}

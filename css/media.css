@@ -1,0 +1,75 @@
+@media (max-width: 940px) {
+	.logo, .footer{
+		margin-left: 20px;
+	}
+}
+
+@media (max-width: 750px) {
+	.quick, .select, .dividing-line{
+		display: none;
+	}
+	.news{
+		display: block;
+	}
+	.new{
+		max-width: 100%;
+	}
+	.screen-wraper{
+		background-size: 120%;
+	}
+	.screen-title{
+		top: 375px;
+	}
+	.team-title::before, .team-title::after, .new::before, .new2::before{
+		display: none;
+	}
+}
+@media (max-width: 640px) {
+	.tab-text{
+		font-size: 10px;
+
+	}
+	.map-icons{
+		display: none;
+	}
+}
+@media (max-width: 530px) {
+	.footer-link{
+		padding: 0 10px;
+	}
+	.map-cards{
+		display: block;
+	}
+	.card-title{
+		text-align: center;
+	}
+	.screen-wraper{
+		min-height: 200px;
+	}
+	.screen-title{
+		top: 120px;
+	}
+	.screen-subtitle{
+		top: 125px;
+	}
+}
+@media (max-width: 400px){
+	.screen-title{
+		font-size: 0.8em;
+	}
+	.screen-subtitle{
+		font-size: 0.5em;
+	}
+	.search{
+		margin: 20px auto;
+	}
+	.tab-text{
+		font-size: 8px;
+	}
+}
+@media (max-width: 360px){
+	.footer-link{
+		padding: 2px;
+		border-left: none; 
+	}
+}
