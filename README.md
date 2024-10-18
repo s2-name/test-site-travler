@@ -1,2 +1,2 @@
 # test-site-travler
-[Preview](http://steave.tk/)
+[Preview](https://s2-name.github.io/test-site-travler/)
